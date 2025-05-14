@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-
 	/*"github.com/luismaderas/variables"*/
-	"github.com/luismaderas/ejercicios"
+	/*"github.com/luismaderas/ejercicios"*/
+	"github.com/luismaderas/teclado"
 )
 
 func main() {
@@ -15,8 +14,10 @@ func main() {
 	fmt.Println(estado)
 	fmt.Println(texto) */
 
-	numero, texto := ejercicios.ConviertoaNunero("200")
+	/* numero, texto := ejercicios.ConviertoaNunero("200")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto) */
+
+	teclado.IngresoNumeros()
 
 }
