@@ -3,7 +3,8 @@ package main
 import (
 	/*"github.com/luismaderas/variables"*/
 	/*"github.com/luismaderas/ejercicios"*/
-	"github.com/luismaderas/teclado"
+	/*"github.com/luismaderas/teclado"*/
+	"github.com/luismaderas/ejercicios"
 )
 
 func main() {
@@ -18,6 +19,8 @@ func main() {
 	fmt.Println(numero)
 	fmt.Println(texto) */
 
-	teclado.IngresoNumeros()
+	/*teclado.IngresoNumeros()*/
+
+	ejercicios.TabladeMultiplicar()
 
 }
