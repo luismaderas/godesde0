@@ -27,8 +27,8 @@ func TabladeMultiplicar() {
 	}
 	fmt.Println("LA TABLA DEL ", numero, " ES: ")
 	for i := 1; i <= 10; i++ {
-		//fmt.Printf(" %d X %d  = %d \n", numero, i, i*numero)
-		fmt.Println(numero, " x ", i, " = ", numero*i)
+		fmt.Printf(" %d X %d  = %d \n", numero, i, i*numero)
+		//fmt.Println(numero, " x ", i, " = ", numero*i)
 	}
 
 }
