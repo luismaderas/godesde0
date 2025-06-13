@@ -4,9 +4,7 @@ import (
 	/*"github.com/luismaderas/variables"*/
 	/*"github.com/luismaderas/ejercicios"*/
 	/*"github.com/luismaderas/teclado"*/
-	"fmt"
-
-	"github.com/luismaderas/godesde0/ejercicios"
+	"github.com/luismaderas/files"
 )
 
 func main() {
@@ -23,6 +21,9 @@ func main() {
 
 	/*teclado.IngresoNumeros()*/
 
-	fmt.Println(ejercicios.TabladeMultiplicar())
+	//fmt.Println(ejercicios.TabladeMultiplicar())
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeoArchivo()
 
 }
